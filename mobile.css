@@ -1,0 +1,129 @@
+@media only screen and (max-width: 688px) {
+    .body {
+        margin: 0;
+    }
+
+    .full-screen {
+        display: none;
+    }
+
+    .mobile-screen {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 1%;
+        padding-right: 1%;
+        /* margin-right: 1%; */
+        align-items: center;
+    }
+
+    .half-width {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-left: 0;
+        text-align: center;
+        /* width: 80%; */
+    }
+
+    .half-width h1 {
+        font-size: 24px;
+    }
+
+    .start {
+        margin-right: 5px;
+    }
+
+    .half-width img {
+        width: 70%;
+        height: auto;
+    }
+
+    .cover-image {
+        padding: 6%;
+    }
+
+    .link-button {
+        font-size: 14px;
+        padding: 12px 20px;
+    }
+
+    .divider {
+        padding-left: 5%;
+        margin-left: 5%;
+    }
+
+
+    .logos {
+        display: flex;
+        column-gap: 0;
+        row-gap: 0;
+        margin-left: 0;
+        margin-right: 0;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .logos>a>img {
+        width: 60%;
+        height: auto;
+    }
+
+    .popular-header {
+        font-size: 24px;
+    }
+
+    .popular-items {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 8px;
+        justify-items: center;
+        align-items: center;
+        width: 80%;
+        padding-bottom: 5%;
+        height: auto;
+    }
+
+    .item {
+        padding: 10px;
+        box-shadow: 0px 0px 40px #AAAAAA;
+        border-radius: 10px;
+        width: 80%;
+    }
+
+    .item>img {
+        width: 100%;
+        height: auto;
+    }
+
+    .feature-products {
+        padding-bottom: 10%;
+    }
+
+    .feature-products h1 {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    footer {
+        width: 100%;
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+
+    footer h1 {
+        font-size: 18px;
+    }
+
+    footer p {
+        font-size: 14px;
+    }
+
+    footer>i {
+        width: 50%;
+        height: auto;
+        padding: 1%;
+        margin-top: 5%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}

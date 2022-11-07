@@ -1,0 +1,28 @@
+.full-screen {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+    align-items: center;
+}
+
+.site-logo {
+    color: #3A3A3A;
+}
+
+.site-nav a {
+    text-decoration: none;
+    color: #3A3A3A;
+    margin-right: 25px;
+}
+
+.site-nav>i {
+    margin-right: 25px;
+}
+
+@media only screen and (min-width: 689px) {
+    .mobile-screen {
+        display: none;
+    }
+
+}
